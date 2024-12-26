@@ -17,4 +17,4 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Widgets REQUIRED)
 add_executable(ColumnContentResizeAdapter
   main.cpp columncontentresizeadapter.h columncontentresizeadapter.cpp
 )
-target_link_libraries(ColumnContentResizeAdapter Qt${QT_VERSION_MAJOR}::Core)
+target_link_libraries(ColumnContentResizeAdapter Qt${QT_VERSION_MAJOR}::Widgets)

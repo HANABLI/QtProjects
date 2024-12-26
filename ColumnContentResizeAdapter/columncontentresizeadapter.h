@@ -8,6 +8,7 @@
   *
   * 
   */
+#pragma once
 #include <QAbstractTableModel>
 class QTableView;
 class QTreeView;
@@ -37,7 +38,7 @@ private slots:
      * This method is invoked asynchronously as the model might not be set
      * at the time the constructor is called.
      */
-    void inittialize();
+    void initialize();
 
 private:
     QHeaderView *m_headerView = nullptr;
